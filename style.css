@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f6f8;
+}
+
+/* Header */
+header {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(45deg, #ff6b6b, #ffa502);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* About */
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Buttons */
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Offer */
+.offer {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+}
+
+/* Contact */
+.contact {
+    background: #2f3640;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.whatsapp {
+    background: #25D366;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card img {
+        height: 150px;
+    }
+}
